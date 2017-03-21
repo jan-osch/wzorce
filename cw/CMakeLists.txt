@@ -40,3 +40,15 @@ set(SOURCE_FILES_2
         3_2/SHA256Hash.cpp 3_2/SHA256Hash.h)
 
 add_executable(3_2 ${SOURCE_FILES_2})
+
+set(SOURCE_FILES_3
+        3_3/main.cpp
+        )
+
+add_executable(3_3 ${SOURCE_FILES_3})
+
+set(SOURCE_FILES_4
+        4_2/main.cpp
+        )
+
+add_executable(4_2 ${SOURCE_FILES_4})
