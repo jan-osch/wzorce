@@ -52,3 +52,16 @@ set(SOURCE_FILES_4
         )
 
 add_executable(4_2 ${SOURCE_FILES_4})
+
+set(SOURCE_FILES_5_1
+        5_1/Launcher.h
+        5_1/main.cpp
+        5_1/Grenade.cpp 5_1/AntiTankGrenade.cpp 5_1/AntiTankGrenade.h 5_1/Grenade.h 5_1/Launcher.cpp 5_1/SmokeGrenade.cpp 5_1/SmokeGrenade.h)
+
+add_executable(5_1 ${SOURCE_FILES_5_1})
+
+set(SOURCE_FILES_5_2
+        5_2/main.cpp
+        5_2/Director.cpp 5_2/Director.h 5_2/Builder.cpp 5_2/Builder.h)
+
+add_executable(5_2 ${SOURCE_FILES_5_2})
