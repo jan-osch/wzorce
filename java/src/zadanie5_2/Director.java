@@ -1,4 +1,4 @@
-package pl.edu.uj;
+package zadanie5_2;
 
 import java.io.IOException;
 import java.nio.file.Files;

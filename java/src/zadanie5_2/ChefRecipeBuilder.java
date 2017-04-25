@@ -1,4 +1,4 @@
-package pl.edu.uj;
+package zadanie5_2;
 
 public class ChefRecipeBuilder extends Builder {
     private ChefRecipe instance;

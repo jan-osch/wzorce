@@ -1,4 +1,4 @@
-package pl.edu.uj;
+package zadanie5_2;
 
 import java.util.ArrayList;
 import java.util.List;

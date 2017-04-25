@@ -1,4 +1,4 @@
-package pl.edu.uj;
+package zadanie5_2;
 
 public class InventoryItemBuilder extends Builder {
     private InventoryItem instance;

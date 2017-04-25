@@ -1,4 +1,4 @@
-package pl.edu.uj;
+package zadanie5_2;
 
 public abstract class Builder {
     public abstract void buildMeat(int amount);
