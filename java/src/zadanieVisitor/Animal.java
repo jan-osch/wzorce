@@ -5,6 +5,12 @@ public abstract class Animal {
     private int comfort;
     private int cleaness;
 
+    public Animal(int hunger, int comfort, int cleaness) {
+        this.hunger = hunger;
+        this.comfort = comfort;
+        this.cleaness = cleaness;
+    }
+
     abstract void accept(HotelStaff hotelStaff);
 
     public int getCleaness() {
