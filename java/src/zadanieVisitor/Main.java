@@ -13,6 +13,7 @@ public class Main {
         hotel.addStaff(new Cleaner());
         hotel.addStaff(new Walker());
         hotel.addStaff(new Feeder(200));
+        hotel.addStaff(new Vet());
 
         hotel.morningPassage();
         hotel.eveningPassage();
