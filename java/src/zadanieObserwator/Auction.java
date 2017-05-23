@@ -29,14 +29,15 @@ public class Auction implements Observable<Auction.AuctionState> {
         this.emit();
     }
 
-    public void setSold(){
+    public void setSold() {
         this.sold = true;
-        this.emit();;
+        this.emit();
     }
 
     @Override
     public void emit() {
-        System.out.println("Current price: " + this.price + " sold: "+this.sold);
+        System.out.println("Current price: " + this.price + " sold: " + this.sold);
+
         for (Observer o : this.listeners) {
             o.update(this, new AuctionState(this.price, this.sold));
         }
